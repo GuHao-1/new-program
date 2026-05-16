@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI性格测试 - 测试结果</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container result-container">
+        <header>
+            <h1>你的性格类型</h1>
+        </header>
+        
+        <main>
+            <div class="result-card" id="result-card">
+                <div class="type-badge" id="type-badge">INFJ</div>
+                <h2 id="type-name">咨询师型人格</h2>
+                <p id="type-description">你的性格类型描述将显示在这里...</p>
+                
+                <div class="traits">
+                    <h3>核心特质</h3>
+                    <div class="trait-list" id="trait-list">
+                        <span class="trait">内向</span>
+                        <span class="trait">直觉</span>
+                        <span class="trait">情感</span>
+                        <span class="trait">判断</span>
+                    </div>
+                </div>
+                
+                <div class="strengths" id="strengths">
+                    <h3>你的优势</h3>
+                    <ul>
+                        <li>富有洞察力</li>
+                        <li>善于倾听</li>
+                        <li>富有创造力</li>
+                    </ul>
+                </div>
+                
+                <div class="careers" id="careers">
+                    <h3>适合的职业方向</h3>
+                    <ul>
+                        <li>心理咨询师</li>
+                        <li>作家</li>
+                        <li>艺术指导</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <button class="restart-btn" onclick="restartTest()">重新测试</button>
+        </main>
+        
+        <footer>
+            <p>© 2024 MBTI性格测试 | 仅供娱乐参考</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
